@@ -1,0 +1,22 @@
+.logo {
+    a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        text-indent: -1234em; // смещаем текст из области видимости
+        background: url('./images/logo.png') center no-repeat;
+        background-size: contain;
+        width: 10.4rem; // 156px (ширина лого в пикселях) делим на 15px (размер шрифта)
+        height: 1.3rem; // 19px (высота лого в пикселях) делим на 15px (размер шрифта);
+        transition: opacity 0.3s;
+
+        &:hover,
+        &:visited {
+            color: white;
+        }
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
