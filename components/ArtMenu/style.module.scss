@@ -1,0 +1,12 @@
+.artMenu {
+    font: bold 1.1429rem/1 'NeueMachina', sans-serif;
+    
+    &Link {
+        color: white;
+
+        &:hover,
+        &:visited {
+            color: white;
+        }
+    }
+}

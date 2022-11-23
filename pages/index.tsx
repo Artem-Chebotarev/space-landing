@@ -4,7 +4,8 @@ import cl from 'classnames';
 import { Logo } from '../components/Logo';
 import { SocialNetworks } from '../components/SocialNetworks';
 import { Title } from '../components/Title';
-import { Button } from '../components/Button';
+import { ArtButton } from '../components/ArtButton';
+import { Navigation } from '../components/Navigation';
 
 export default function Home() {
   return (
@@ -13,25 +14,25 @@ export default function Home() {
         <header className={styles.header}>
           <Logo />
           <SocialNetworks />
-          <Button onClick={() => {}}>
+          <ArtButton onClick={() => {}}>
             Whilepaper
-          </Button>
+          </ArtButton>
         </header>
-        {/* <Navigation /> */}
+        <Navigation />
         <div>
           <Title>
             From dusk to&nbsp;dawn
           </Title>
           <ul className={styles.buttonList}>
             <li>
-              <Button onClick={() => {}}>
+              <ArtButton onClick={() => {}}>
                 Mint
-              </Button>
+              </ArtButton>
             </li>
             <li>
-              <Button onClick={() => {}}>
+              <ArtButton onClick={() => {}}>
                 Connect Wallet
-              </Button>
+              </ArtButton>
             </li>
           </ul>
         </div>
